@@ -1,3 +1,5 @@
+//animates a spinner; demonstrates the use of \r to re-write over a line by moving back to the beginning of the line
+
 process.stdout.write('hello from spinner1.js... \rheyyy\n');
 
 setTimeout(() => {
@@ -21,7 +23,7 @@ setTimeout(() => {
 }, 900);
 
 setTimeout(() => {
-  process.stdout.write('\r\/  ');
+  process.stdout.write('\r/  ');
 }, 1100);
 
 setTimeout(() => {
